@@ -43,9 +43,6 @@ class Game:
     def isPositionPacked(self,position):
         return not self.board[position-1] == '_'
 
-    def insertAtPosition(self):
-        pass
-
     def insert(self):
         def innerMethod1():
             self.spacing()
